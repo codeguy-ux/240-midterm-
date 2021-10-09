@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="index.css">
+<script type="text/javascript" src='craigs.js'>
+</script>
+
+	<title>Craigslist</title>
+			<a href="index.html">home</a>
+			<a href="search.html">search</a>
+			<a href="details.html">details</a>
+
+		<center>
+
+	<header>
+		<img src="clist.png" width="800" height ="300"><br>
+	</header>
+	
+	<body>
+
+		<div class="main">
+		<div class="column1">
+		<body onload="resetSelection()">
+		    <select id="category" size="1" onchange="makeSubmenu(this.value)">
+				<option value="" disabled selected>Choose Category</option>
+				<option>community</option>
+				<option>real estate</option>
+				<option>jobs</option>
+				<option>services</option>
+				<option>for sale</option>
+				<option>discussion forums</option>
+				<option>gigs</option>
+				<option>resumes</option>
+			</select>
+					<br>
+			<select id="categorySelect" size="1">
+				<option value="" disabled selected>Choose Subcategory</option>
+				<option>apts / housing</option>
+				<option>housing swap</option>
+				<option>housing wanted</option>
+				<option>office / commercial</option>
+				<option>parking / storage</option>
+				<option>real estate for sale</option>
+				<option>rooms / shared</option>
+				<option>rooms / wanted</option>
+				<option>sublets / temporary</option>
+				<option>vacation rentals</option>
+			</select>
+
+		<br>   
+		 <button onclick="displaySelected()"><a href="search.html">GO</a></button>
+	
+		</div>
+		
+		<div class="column2">
+			<br>
+			<form>
+				Search<br><input type="text" id="First Name" name="fname"></form>
+				<button onclick="displaySelected()"><a href="search.html">GO</a></button>
+
+				</div>
+
+	<div class="column3">
+		 
+		   <form>
+		 		<label for="fname">username or email</label><br>
+		  		<input type="text" id="fname" name="fname"><br>
+		  		<label for="lname">password</label><br>
+		  		<input type="text" id="lname" name="lname">
+			</form>
+				<br>
+				<button>
+		  <a href="error.html">Sign in to post</a>
+		</button>
+</div>
+</div>
+	
+	</body>
+		
+		<footer>This is a mockup for my MMP 240 Midterm - 10.2021</footer>
+
+			</center>
+		
+</html>
+

@@ -1,0 +1,102 @@
+header {
+  color: navy;
+  margin-left: 20px;
+}
+
+  body {
+  background: url('error.gif');
+  margin-left: 20px;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+body{
+   background:
+    url(error.gif) bottom center no-repeat,
+    font-size: 90;
+  
+}
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 2px solid #345483;
+  border-right: none;
+  padding: 1px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 34px;
+  border: 1px solid #345483;
+  background: #345483;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div {
+	colum-count:  1;
+	column- width: 300px;
+	max-width: 300;
+}
+
+.left {
+  width: 65%;
+}
+
+.right {
+  width: 35%;
+}
+
+@media screen and (max-width: 300px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: slategrey;
+  color: white;
+  text-align: center;
+}
+
+	

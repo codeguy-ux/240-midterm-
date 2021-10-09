@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+  <script>
+  var i = 0;
+  var images = [];
+  var time = 1000;
+
+  images[0] = 'pink.jpeg';
+  images[1] = 'tribeca.jpeg';
+  images[2] = 'aptpic.jpeg';
+
+  function changeImg(){
+      document.slide.src = images[i];
+
+      if(i < images.length - 1){
+        i++;
+      }else{
+        i = 0}
+     
+      setTimeout("changeImg()", time);
+    }
+      window.onload=changeImg;
+    </script>
+
+    <img name="slide" width="600" height="400"/>
+<html>
+  
+<head>
+    </head>
+    <body>
+      
+
+    </body>
+  
+</html>

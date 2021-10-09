@@ -1,0 +1,85 @@
+header {
+  color: navy;
+  padding-left: 8%;
+}
+
+h1 {
+  color: navy;
+   padding-left: 8%;
+}
+
+h2 {
+  padding-left: 8%;
+  color: black;
+  font-size: 24px;
+  text-align: left;
+}
+h3 {
+  padding-left: 8%;
+  color: black;
+  font-size: 18px;
+  text-align: left;
+}
+h4 {
+  padding-left: 8%;
+  color: black;
+  font-size: 14px;
+  text-align: left;
+}
+
+body{
+background-color: #F0F0EE;
+padding-left: 8%;
+  max-width: 1000px;
+}
+
+
+div #main {
+  align: left;
+  max-width: 1000;
+  font-size:18px;
+  font-family: robota;
+ 
+}
+
+#row1{
+max-width: 500px;
+  height: 300px;
+  float: left;
+
+}
+
+#row2{
+  max-width: 500px;
+  height: 200px;
+  float: left;
+
+}
+
+#column1 {
+  max-width: 500px;
+  height: 500px;
+  float: left;
+  column-gap: 10;
+  
+}
+
+#column2 {
+   max-width: 500px;
+  height: 500px;
+  column-gap: 3;
+  float: right;
+
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: slategrey;
+  color: white;
+  text-align: center;
+}
+
